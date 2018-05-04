@@ -3383,6 +3383,7 @@ class InfoBarSummary(Screen):
 #		<widget source="session.CurrentService" render="Picon" position="6,0" size="120,64" path="piconlcd" >
 #			<convert type="ServiceName">Reference</convert>
 #		</widget>
+config.misc.delitepiconlcd = ConfigBoolean(default = False)
 class NabInfoBarSummary(Screen):
 	skin = """
 	<screen position="0,0" size="132,64">
